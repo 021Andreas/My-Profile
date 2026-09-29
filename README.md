@@ -11,7 +11,7 @@ Repositori ini berisi portofolio pertama saya untuk tugas **P1 Pemrograman Platf
 
 ## Tautan
 
-- Biodata: [[biodata/index.html](biodata/index.html)](https://021andreas.github.io/My-Profile/biodata/) 
+- Biodata: (https://021andreas.github.io/My-Profile/biodata/) 
 - Video P1: LINK_VIDEO_P1
 - GitHub: https://github.com/021Andreas
 
