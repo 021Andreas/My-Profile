@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andreas Fiki Darmawan | My Profile</title>
+  <meta name="description" content="Portofolio biodata Andreas Fiki Darmawan, mahasiswa Teknik Informatika. Tema Phantom Thieves.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HERO / CALLING CARD ===== -->
+<header class="hero">
+  <nav class="nav" aria-label="Navigasi utama">
+    <a href="#motivasi">Motivasi</a>
+    <a href="#kemampuan">Kemampuan</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#commit">Commit</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#identitas">Identitas</a>
+    <button type="button" id="theme">Terang / Gelap</button>
+  </nav>
+
+  <div class="hero-inner">
+    <div class="avatar" aria-hidden="false">
+      A
+      <img src="../assets/profile.jpg" alt="Foto profil Andreas" onerror="this.hidden=true">
+    </div>
+
+    <div class="callcard">
+      <p class="tag">Take your heart</p>
+      <h1>Andreas Fiki Darmawan</h1>
+      <p>Mahasiswa Teknik Informatika. Membangun aplikasi web dari tampilan sampai data.</p>
+      <p class="sign">Phantom Thieves of Code</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/021Andreas" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://github.com/021Andreas/My-Profile" target="_blank" rel="noopener">Repositori</a>
+        <a class="btn" href="LINK_VIDEO_P1" target="_blank" rel="noopener">Video P1</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. MOTIVASI HIDUP -->
+  <section id="motivasi">
+    <h2 class="sec-title">1. Motivasi Hidup <small>My Motivation</small></h2>
+    <div class="card quote tilt-l">
+      <p>Live Must Go On .</p>
+    </div>
+  </section>
+
+  <!-- 2. KEMAMPUAN TEKNOLOGI -->
+  <section id="kemampuan">
+    <h2 class="sec-title">2. Kemampuan Teknologi <small>Abilities</small></h2>
+    <div class="grid">
+      <div class="card tilt-r">
+        <h3>Sudah dikuasai</h3>
+        <div class="skill"><b>HTML / CSS</b><span class="lv" data-level="2" role="img" aria-label="Menengah"><i></i><i></i><i></i></span><em>Menengah</em></div>
+        <div class="skill"><b>Linux</b><span class="lv" data-level="2" role="img" aria-label="Menengah"><i></i><i></i><i></i></span><em>Menengah</em></div>
+        <div class="skill"><b>Python</b><span class="lv" data-level="1" role="img" aria-label="Pemula"><i></i><i></i><i></i></span><em>Pemula</em></div>
+        <div class="skill"><b>TypeScript</b><span class="lv" data-level="1" role="img" aria-label="Pemula"><i></i><i></i><i></i></span><em>Pemula</em></div>
+        <div class="skill"><b>SvelteKit</b><span class="lv" data-level="1" role="img" aria-label="Pemula"><i></i><i></i><i></i></span><em>Pemula</em></div>
+        <div class="skill"><b>Git</b><span class="lv" data-level="1" role="img" aria-label="Pemula"><i></i><i></i><i></i></span><em>Pemula</em></div>
+      </div>
+      <div class="card tilt-l">
+        <h3>Sedang dipelajari</h3>
+        <ul class="tags">
+          <li>Dart / Flutter</li>
+          <li>C++</li>
+          <li>MariaDB</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. PROYEK -->
+  <section id="proyek">
+    <h2 class="sec-title">3. Proyek <small>Confidants</small></h2>
+    <div class="grid">
+      <article class="card tilt-l">
+        <h3>Tabulampot Tracker</h3>
+        <p>Aplikasi pencatat perawatan tanaman tabulampot dengan dashboard data nyata dan cuaca real-time. Proyek UAS kuliah yang dikerjakan berdua dengan rekan backend.</p>
+        <p class="role">Peran: Frontend developer</p>
+        <p class="stack">SvelteKit 5, TypeScript, CSS murni</p>
+        <div class="links"><a href="https://github.com/021Andreas/REPO_TABULAMPOT" class="todo">Repositori</a></div>
+      </article>
+      <article class="card tilt-r">
+        <h3>My Profile</h3>
+        <p>Portofolio biodata HTML pertama saya, bertema Phantom Thieves. Dibuat untuk tugas P1 Pemrograman Platform.</p>
+        <p class="role">Peran: Pembuat tunggal</p>
+        <p class="stack">HTML, CSS, JavaScript</p>
+        <div class="links"><a href="https://github.com/021Andreas/My-Profile">Repositori</a></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 4. BUKTI COMMIT -->
+  <section id="commit">
+    <h2 class="sec-title">4. Bukti Commit <small>Battle Log</small></h2>
+    <div class="card tilt-l">
+      <a class="badge" href="https://github.com/021Andreas" target="_blank" rel="noopener">github.com/021Andreas</a>
+      <pre><span class="prompt">$</span> git log --oneline -5
+<span class="todo">a1b2c3d</span> style(p1): tema + polish
+<span class="todo">e4f5a6b</span> feat(p1): biodata + foto
+<span class="todo">c7d8e9f</span> docs(p1): init My Profile</pre>
+      <figure>
+        <img src="../assets/commits.png" alt="Tangkapan layar halaman Commits repositori My Profile" onerror="this.hidden=true">
+        <figcaption class="todo">Taruh tangkapan layar halaman Commits di assets/commits.png (minimal 3 commit).</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. RIWAYAT PENDIDIKAN -->
+  <section id="pendidikan">
+    <h2 class="sec-title">5. Riwayat Pendidikan <small>Journey</small></h2>
+    <div class="card tilt-r table-wrap">
+      <table>
+        <thead>
+          <tr><th>Tahun</th><th>Sekolah / Kampus</th><th>Jurusan</th><th>Pencapaian</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024-sekarang</td><td>Universitas Madura</td><td>Teknik Informatika</td><td>-</td></tr>
+          <tr><td>2021-2024</td><td>SMKN 2 Pamekasan</td><td>Teknik Komputer Jaringan</td><td>-</td></tr>
+          <tr><td>2018-2021</td><td>SMP Ma'arif 4 Pamekasan</td><td>-</td><td>-</td></tr>
+          <tr><td>2012-2018</td><td>SDN Panglegur II Pamekasan</td><td>-</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. IDENTITAS PRIBADI -->
+  <section id="identitas">
+    <h2 class="sec-title">6. Identitas Pribadi <small>Character Profile</small></h2>
+    <div class="card tilt-l">
+      <dl>
+        <dt>Nama lengkap</dt><dd>Andreas Fiki Darmawan</dd>
+        <dt>Panggilan</dt><dd>Andreas</dd>
+        <dt>NIM</dt><dd>2024520021</dd>
+        <dt>Lokasi</dt><dd>Pamekasan, Jawa Timur</dd>
+        <dt>Surel</dt><dd>andreasfikid@gmail.com</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 7 & 8. TEMA -->
+  <section id="tema">
+    <h2 class="sec-title">7-8. Tema <small>Phantom Thieves</small></h2>
+    <div class="card tilt-r">
+      <p>Portofolio ini memakai estetika punk, kolase, halftone, dan kontras merah-hitam yang terinspirasi dari antarmuka Persona 5. Tema ini dipilih karena perjalanan belajar pemrograman terasa seperti menjalankan misi: penuh tantangan dan selalu ada yang baru untuk dicuri ilmunya.</p>
+      <div class="swatches">
+        <span style="background:#e60012;color:#fff">Merah #E60012</span>
+        <span style="background:#0d0d0d;color:#fff">Hitam #0D0D0D</span>
+        <span style="background:#fff">Putih #FFFFFF</span>
+        <span style="background:#f2e852">Kuning #F2E852</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Dibuat dengan &hearts; oleh 021Andreas &mdash; P1 Pemrograman Platform</p>
+  <div class="links">
+    <a href="LINK_VIDEO_P1" target="_blank" rel="noopener">Video P1</a>
+    <a href="https://github.com/021Andreas/My-Profile" target="_blank" rel="noopener">Repositori</a>
+  </div>
+</footer>
+
+<script>
+  var root = document.documentElement;
+  try { var saved = localStorage.getItem("p5-theme"); if (saved) root.dataset.theme = saved; } catch (e) {}
+  document.getElementById("theme").addEventListener("click", function () {
+    var next = root.dataset.theme === "light" ? "dark" : "light";
+    root.dataset.theme = next;
+    try { localStorage.setItem("p5-theme", next); } catch (e) {}
+  });
+</script>
+</body>
+</html>
