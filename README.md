@@ -13,7 +13,7 @@ Repositori ini berisi portofolio pertama saya untuk tugas **P1 Pemrograman Platf
 
 - Biodata: [biodata/index.html](biodata/index.html) (ganti dengan tautan GitHub Pages jika sudah aktif)
 - Video P1: LINK_VIDEO_P1
-- GitHub: https://github.com/USERNAME_GITHUB
+- GitHub: https://github.com/021Andreas
 
 ## Struktur
 
@@ -29,4 +29,4 @@ My-Profile/
     └── commits.png
 ```
 
-Dibuat dengan ♥ oleh USERNAME_GITHUB, P1 Pemrograman Platform.
+Dibuat dengan ♥ oleh 021Andreas, P1 Pemrograman Platform.
