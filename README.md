@@ -40,7 +40,7 @@
 
 <img src="assets/s4-commit.png" alt="4. Bukti Commit" height="64">
 
-[![GitHub](https://img.shields.io/badge/github.com%2F021Andreas-0D0D0D?style=flat-square&logo=github)](https://github.com/021Andreas) | [Lihat halaman Commits](https://github.com/021Andreas/My-Profile/commits/main)
+[![GitHub](https://img.shields.io/badge/github.com%2F021Andreas-0D0D0D?style=flat-square&logo=github)](https://github.com/021Andreas) 
 
 
 
