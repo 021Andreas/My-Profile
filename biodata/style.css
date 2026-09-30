@@ -1,4 +1,13 @@
 /* ===== Tema: Phantom Thieves (terinspirasi antarmuka Persona 5) ===== */
+/* Font tema: Persona 5 Menu Ransom (file lokal). Anton menjadi cadangan untuk karakter yang tidak ada. */
+@font-face {
+  font-family: "P5";
+  src: url("fonts/p5-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --red: #e60012;
   --black: #0d0d0d;
@@ -12,7 +21,7 @@
   --label-shadow: var(--white);
   --dot: rgba(230, 0, 18, 0.45);
 
-  --display: "Anton", Impact, "Arial Narrow", sans-serif;
+  --display: "P5", "Anton", Impact, "Arial Narrow", sans-serif;
   --body: "Barlow", "Segoe UI", system-ui, sans-serif;
 }
 
@@ -167,7 +176,7 @@ img { max-width: 100%; }
 }
 .callcard h1 {
   margin: 0;
-  font: clamp(2.1rem, 8vw, 3.6rem)/1 var(--display);
+  font: clamp(1.7rem, 6.5vw, 2.8rem)/1.25 var(--display);
   text-transform: uppercase;
   overflow-wrap: anywhere;
 }
