@@ -6,7 +6,7 @@
 
 > **TAKE YOUR HEART** — Phantom Thieves of Code
 
-Mahasiswa Teknik Informatika yang membangun aplikasi web dari tampilan sampai data.
+
 Repositori ini berisi portofolio pertama saya untuk tugas **P1 Pemrograman Platform**, bertema terinspirasi antarmuka Persona 5.
 
 ## Tautan
